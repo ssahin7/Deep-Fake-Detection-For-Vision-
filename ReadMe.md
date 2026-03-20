@@ -144,8 +144,3 @@ python DF34-18Mediapipe.py
   <img src="Pre-Recall.png" width="700"/>
 </p>
 
-###  Performance Metrics
-<p align="center">
-  <img src="performance.png" width="700"/>
-</p>
-

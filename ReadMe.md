@@ -126,7 +126,7 @@ python DF34-18Mediapipe.py
 
 ### 🧠 Sistem Akışı
 <p align="center">
-  <img src="FlowChart.png" width="700"/>
+  <img src="Flow-Chart.png" width="700"/>
 </p>
 
 ### Confusion Matrix

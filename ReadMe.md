@@ -65,7 +65,6 @@ Her modül ayrı ayrı eğitilir ve en iyi ağırlıklar `best_rgb.pth`, `best_f
 - **best_geo.pth** → Yüz geometrisinden öğrenilen ağırlıklar  
 
 ---
-
 ## 📊 Test / Evaluation Örnek Çıktısı
 
 ```text
@@ -75,6 +74,7 @@ Precision: 0.9600
 Recall: 0.9350
 F1: 0.9474
 IoU: 0.8951
+```
 
 Model üç farklı kaynaktan bilgi öğrenir:
 
@@ -89,7 +89,6 @@ Model üç farklı kaynaktan bilgi öğrenir:
 #### 🌊 Frequency Features (FFT)
 - Görüntü frekans uzayına dönüştürülür  
 - Deepfake üretiminde oluşan artefaktlar tespit edilir  
-
 
 ---
 
@@ -121,31 +120,27 @@ git clone <repo_link>
 
 # Script çalıştır
 python DF34-18Mediapipe.py
+```
+
+---
 
 ### 🧠 Sistem Akışı
-
 <p align="center">
   <img src="FlowChart.png" width="700"/>
 </p>
 
-### Confison Matris
-
+### Confusion Matrix
 <p align="center">
   <img src="Mtrs.png" width="700"/>
 </p>
-###  Roc Curve
 
+### ROC Curve
 <p align="center">
   <img src="Roccurve.png" width="700"/>
 </p>
-###  Presicion-Recall
 
+### Precision-Recall
 <p align="center">
   <img src="Pre-Recall.png" width="700"/>
-</p>
-
-###  Performance Metrics
-<p align="center">
-  <img src="performance.png" width="700"/>
 </p>
 
